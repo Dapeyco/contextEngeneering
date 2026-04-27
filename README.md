@@ -51,7 +51,7 @@ In short:
 
 ### Skills
 
-- **lean-workspace-instructions** — a production-oriented skill for structuring `CLAUDE.md`, `AGENTS.md`, and `copilot-instructions.md` using a lightweight root router and linked modules.
+- **lean-instructions** — a production-oriented skill for structuring `CLAUDE.md`, `AGENTS.md`, and `copilot-instructions.md` using a lightweight root router and linked modules.
 
 ### Techniques
 
@@ -69,7 +69,7 @@ This repository may also include methods and supporting concepts such as:
 contextEngineering/
 ├── README.md
 ├── skills/
-│   └── lean-workspace-instructions/
+│   └── lean-instructions/
 │       ├── SKILL.md
 │       ├── README.md
 │       └── examples/
