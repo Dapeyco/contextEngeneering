@@ -52,6 +52,7 @@ In short:
 ### Skills
 
 - **lean-instructions** — a production-oriented skill for structuring `CLAUDE.md`, `AGENTS.md`, and `copilot-instructions.md` using a lightweight root router and linked modules.
+- **obsidian** — a documentation-oriented skill for initializing and managing project knowledge in an Obsidian vault, including Markdown structure, task tracking, and AI-readable workspace memory.
 
 ### Techniques
 
@@ -69,10 +70,13 @@ This repository may also include methods and supporting concepts such as:
 contextEngineering/
 ├── README.md
 ├── skills/
-│   └── lean-instructions/
+│   ├── lean-instructions/
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   └── examples/
+│   └── obsidian/
 │       ├── SKILL.md
-│       ├── README.md
-│       └── examples/
+│       └── README.md
 ├── techniques/
 │   ├── rtk/
 │   └── graphify/
